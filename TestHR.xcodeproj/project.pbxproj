@@ -13,6 +13,11 @@
 		81CE81442C03564900CE6D67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CE81422C03564900CE6D67 /* Main.storyboard */; };
 		81CE81462C03564D00CE6D67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CE81452C03564D00CE6D67 /* Assets.xcassets */; };
 		81CE81492C03564D00CE6D67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CE81472C03564D00CE6D67 /* LaunchScreen.storyboard */; };
+		81CE81512C035EF600CE6D67 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CE81502C035EF600CE6D67 /* HomeViewController.swift */; };
+		81CE81532C0364F900CE6D67 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CE81522C0364F900CE6D67 /* Model.swift */; };
+		81CE81552C0373DE00CE6D67 /* MyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CE81542C0373DE00CE6D67 /* MyInfoViewController.swift */; };
+		81CE81572C03741500CE6D67 /* OrganizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CE81562C03741500CE6D67 /* OrganizationViewController.swift */; };
+		81CE81592C03742B00CE6D67 /* UsedDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CE81582C03742B00CE6D67 /* UsedDaysViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		81CE81452C03564D00CE6D67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81CE81482C03564D00CE6D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81CE814A2C03564D00CE6D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81CE81502C035EF600CE6D67 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		81CE81522C0364F900CE6D67 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		81CE81542C0373DE00CE6D67 /* MyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoViewController.swift; sourceTree = "<group>"; };
+		81CE81562C03741500CE6D67 /* OrganizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationViewController.swift; sourceTree = "<group>"; };
+		81CE81582C03742B00CE6D67 /* UsedDaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsedDaysViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +69,12 @@
 				81CE813C2C03564800CE6D67 /* AppDelegate.swift */,
 				81CE813E2C03564900CE6D67 /* SceneDelegate.swift */,
 				81CE81402C03564900CE6D67 /* ViewController.swift */,
+				81CE81522C0364F900CE6D67 /* Model.swift */,
 				81CE81422C03564900CE6D67 /* Main.storyboard */,
+				81CE81502C035EF600CE6D67 /* HomeViewController.swift */,
+				81CE81582C03742B00CE6D67 /* UsedDaysViewController.swift */,
+				81CE81562C03741500CE6D67 /* OrganizationViewController.swift */,
+				81CE81542C0373DE00CE6D67 /* MyInfoViewController.swift */,
 				81CE81452C03564D00CE6D67 /* Assets.xcassets */,
 				81CE81472C03564D00CE6D67 /* LaunchScreen.storyboard */,
 				81CE814A2C03564D00CE6D67 /* Info.plist */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CE81592C03742B00CE6D67 /* UsedDaysViewController.swift in Sources */,
+				81CE81532C0364F900CE6D67 /* Model.swift in Sources */,
 				81CE81412C03564900CE6D67 /* ViewController.swift in Sources */,
 				81CE813D2C03564800CE6D67 /* AppDelegate.swift in Sources */,
 				81CE813F2C03564900CE6D67 /* SceneDelegate.swift in Sources */,
+				81CE81552C0373DE00CE6D67 /* MyInfoViewController.swift in Sources */,
+				81CE81512C035EF600CE6D67 /* HomeViewController.swift in Sources */,
+				81CE81572C03741500CE6D67 /* OrganizationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
